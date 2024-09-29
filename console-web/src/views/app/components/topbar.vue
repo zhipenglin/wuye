@@ -2,7 +2,7 @@
     <section :class="wrapperClasses">
         <div class="cw-layout-topbar-left">
             <router-link to="/" v-if="mediaQuery === 'xs'">
-                <img src="../../../assets/logo.svg" class="cw-layout-topbar-logo" />
+                <img src="../../../assets/logo.png" class="cw-layout-topbar-logo" />
             </router-link>
 
             <button @click="updateCollapse">
