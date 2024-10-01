@@ -10,9 +10,9 @@
  * +----------------------------------------------------------------------
  */
 
-export const API_HOST = '';
+export const API_HOST = 'https://api.wuye.webinfra.cloud';
 
-export const ASSETS_HOST = '';
+export const ASSETS_HOST = 'https://wuye-1253674045.cos.ap-shanghai.myqcloud.com';
 
 export const TOKEN_NAME = 'EJYY-TOKEN';
 
