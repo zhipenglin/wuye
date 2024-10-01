@@ -24,4 +24,4 @@ export const HOST_NAME = 'http://localhost:6688';
 
 export const ASSET_HOST = 'https://wuye-1253674045.cos.ap-shanghai.myqcloud.com';
 
-export const MAP_KEY = '';
+export const MAP_KEY = '53UBZ-ASRWD-2AH4J-HD4CA-DATE2-DFBPG';
