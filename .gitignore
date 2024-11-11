@@ -9,3 +9,4 @@ dist
 .ejyyrc
 project.config.json
 project.private.config.json
+.idea
