@@ -16,7 +16,7 @@ import * as ROLE from '~/constant/role_access';
 import { BINDING_BUILDING, BINDING_CAR, TRUE } from '~/constant/status';
 import utils from '~/utils';
 import os from 'os';
-import checkDiskSpace from 'check-disk-space';
+// import checkDiskSpace from 'check-disk-space';
 import moment from 'moment';
 
 interface RequestBody {
@@ -103,7 +103,7 @@ const StatisticScreenAction = <Action>{
                 .count()
         );
 
-        const diskInfo = await checkDiskSpace('/');
+        // const diskInfo = await checkDiskSpace('/');
 
         const day_start = moment()
             .startOf('day')
@@ -306,7 +306,8 @@ const StatisticScreenAction = <Action>{
                 movecar_total,
                 cpu: Math.round(os.loadavg()[0]),
                 mem: Math.round((1 - os.freemem() / os.totalmem()) * 100),
-                disk: Math.round((1 - diskInfo.free / diskInfo.size) * 100),
+                disk: 0,
+                // disk: Math.round((1 - diskInfo.free / diskInfo.size) * 100),
                 log: {
                     entrance: entrance_log,
                     elevator: elevator_log,

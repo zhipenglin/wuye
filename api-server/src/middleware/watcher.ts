@@ -43,7 +43,7 @@ function WatcherMiddleware(): Middleware<DefaultState, DefaultContext> {
         }
 
         if (ctx.status === 404) {
-            ctx.redirect('https://www.chowa.cn');
+            ctx.redirect('https://wuye.webinfra.cloud');
         }
     };
 }

@@ -127,7 +127,7 @@ function generateConfig(): Config {
         debug: process.env.NODE_ENV !== 'production',
         server: {
             port: 6688,
-            name: 'e家宜业',
+            name: '宽庭',
             ...customConfig.server
         },
         mysqlConfig,

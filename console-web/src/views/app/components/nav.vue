@@ -2,10 +2,10 @@
     <section :class="wrapperClasses">
         <div class="cw-layout-nav-inner-logo">
             <router-link to="/">
-                <img src="../../../assets/logo.svg" class="logo-img" />
+                <img src="../../../assets/logo.png" class="logo-img" />
                 <span v-show="!siderCollapsed">
                     <img src="../../../assets/logo_txt_white.svg" v-if="theme === 'dark'" class="logo-txt" />
-                    <img src="../../../assets/logo_txt.svg" v-else class="logo-txt" />
+                    <!-- <img src="../../../assets/logo_txt.svg" v-else class="logo-txt" /> -->
                 </span>
             </router-link>
         </div>
